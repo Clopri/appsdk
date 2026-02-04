@@ -67,10 +67,19 @@ class ProductData
     /** @var int|bool Indica si se puede vender en negativo (1 o 0). */
     public $sell_negative;
 
-    /** @var float Cantidad por paquete (Nuevo parámetro). */
+    /** @var float Cantidad por paquete. */
     public $quantityPerPackage = 0.0;
 
+    /** @var string|null JSON para datos adicionales. */
+    public $dataJSON;
+
+    /** @var float|int Impuesto adicional o Plus. */
+    public $plusIva;
+
     // --- Propiedades Dinámicas (Inyectadas por consultas SQL) ---
+
+    /** @var float Cantidad calculada (usada en reportes de stock bajo). */
+    public $quantity;
 
     /** @var string Descripción del estado (ej: "Activo"). */
     public $status_dsc;
@@ -86,6 +95,17 @@ class ProductData
 
 
     public function __construct() {}
+
+    /**
+     * Obtiene productos con stock menor o igual al límite definido.
+     * @param float $min_stock Cantidad mínima.
+     * @param int|null $idStore ID del almacén.
+     * @return self[]
+     */
+    public static function getLowStock($min_stock, $idStore = null)
+    {
+        return [];
+    }
 
     /**
      * Obtiene la categoría asociada a este producto.

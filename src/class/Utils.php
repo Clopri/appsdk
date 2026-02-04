@@ -20,4 +20,11 @@ class Utils
     {
         return '';
     }
+
+    /**
+     * Imprime una pantalla HTML de "Acceso denegado".
+     * Renderiza una vista con un mensaje de error y estilos CSS embebidos.
+     * * @return void
+     */
+    public static function noPermissionPrint() {}
 }

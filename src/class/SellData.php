@@ -112,8 +112,22 @@ class SellData
     /** @var string UUID único de la venta. */
     public $UUID;
 
+    /** @var string|null JSON para datos adicionales. */
+    public $dataJSON;
+
 
     public function __construct() {}
+
+    /**
+     * Actualiza campos específicos de la venta basados en un array.
+     * @param int|string $id El ID del registro a actualizar.
+     * @param array $data Array asociativo ej: ['total' => 500, 'person_id' => 5]
+     * @return array|bool
+     */
+    public static function updateById($id, $data)
+    {
+        return false;
+    }
 
     /**
      * Reporte de Cuentas por Cobrar.

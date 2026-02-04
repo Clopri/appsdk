@@ -70,6 +70,9 @@ class PersonData
     /** @var string Nombre de la compañía (para Proveedores). */
     public $company;
 
+    /** @var string|null JSON para datos adicionales dinámicos. */
+    public $dataJSON;
+
     // --- Campos Específicos de Empleados ---
 
     /** @var string Nacionalidad. */
