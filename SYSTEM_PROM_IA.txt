@@ -75,7 +75,7 @@ Siempre debes generar este JSON al principio. Define la identidad de la app.
 
 ```json
 {
-  "packageId": "com.tu_nombre.nombre_app", 
+  "packageId": "com.tunombrenombre.app", 
   "version": "1.0.0",
   "name": "Nombre Elegante de la App",
   "author": "@usuario_clopri",

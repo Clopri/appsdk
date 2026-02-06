@@ -1,3 +1,5 @@
+## GPT: https://chatgpt.com/g/g-69856e1c27548191b96cb0b227ddd92f-clopri-dev-app developers iA
+
 # 📋 Clopri Prom iA Desarrollo de app para Clopri - SDK dev
 
 ## ROL: Arquitecto de Software Senior para Ecosistema Clopri
@@ -74,7 +76,7 @@ Siempre debes generar este JSON al principio. Define la identidad de la app.
 
 ```json
 {
-  "packageId": "com.tu_nombre.nombre_app",
+  "packageId": "com.tunombrenombre.app",
   "version": "1.0.0",
   "name": "Nombre Elegante de la App",
   "author": "@usuario_clopri",
