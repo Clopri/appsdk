@@ -1,12 +1,18 @@
 {
     "name": "clopri/appsdk",
-    "description": "Sdk de clopri app",
-    "version": "3.4.7",
+    "description": "SDK IA-First para el desarrollo de aplicaciones en el ecosistema Clopri",
+    "version": "3.9.0",
     "license": "GPL-3.0-or-later",
     "autoload": {
         "psr-4": {
             "Clopri\\Sdk\\": "src/"
-        }
+        },
+        "classmap": [
+            "src/class/"
+        ],
+        "files": [
+            "src/functions/clopriFetch.php"
+        ]
     },
     "authors": [
         {
