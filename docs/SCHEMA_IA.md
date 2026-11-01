@@ -1,4 +1,4 @@
-# 🧠 Clopri ERP — Esquema SQL y Rieles de Base de Datos para IA (SDK v3.9.0)
+# 🧠 Clopri — Esquema SQL y Rieles de Base de Datos para IA (SDK v3.9.0)
 
 > **PROPÓSITO DE ESTE ARCHIVO:** Este documento está optimizado específicamente para **Agentes de Inteligencia Artificial y LLMs**. Contiene el mapa relacional completo, las firmas exactas de columnas y las reglas de integridad contable para construir consultas con `Executor::doit($sql)` sin errores de columna ni violaciones de seguridad.
 

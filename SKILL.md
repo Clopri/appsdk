@@ -1,15 +1,15 @@
 ---
 name: clopri-app-builder
-description: Build, edit, and validate single-file applications for the Clopri ERP ecosystem using Clopri App SDK v3.9.0. Use when the user asks to create a Clopri app, extension, module, plugin, report, POS tool, or dashboard, or mentions clopri.json, Executor::doit, clopriRequest, clopriStorage, or Clopri database tables.
+description: Build, edit, and validate single-file applications for the Clopri ecosystem using Clopri App SDK v3.9.0. Use when the user asks to create a Clopri app, extension, module, plugin, report, POS tool, or dashboard, or mentions clopri.json, Executor::doit, clopriRequest, clopriStorage, or Clopri database tables.
 ---
 # Clopri App Builder
 
-Build secure, reactive single-file applications (`./src/app.php` + `clopri.json`) for the Clopri ERP platform using SDK v3.9.0, direct SQL execution via `Executor::doit($sql)`, Bootstrap 5, Vue.js 3, and FontAwesome 6 via CDN.
+Build secure, reactive single-file applications (`./src/app.php` + `clopri.json`) for the Clopri platform using SDK v3.9.0, direct SQL execution via `Executor::doit($sql)`, Bootstrap 5, Vue.js 3, and FontAwesome 6 via CDN.
 
 ## When to Use
 
 - The user asks to build, design, or modify an application or module for Clopri.
-- The user wants to interact with Clopri ERP tables (`sell`, `operation`, `payment`, `person`, `product`, `services`, `cashdesk`, `cotizations`, `re`, `spend`, `suscripciones`, `workshop`, `control_ncf`, `ncf_detail`).
+- The user wants to interact with Clopri tables (`sell`, `operation`, `payment`, `person`, `product`, `services`, `cashdesk`, `cotizations`, `re`, `spend`, `suscripciones`, `workshop`, `control_ncf`, `ncf_detail`).
 - The user needs a `clopri.json` manifest and a monolithic `./src/app.php` that passes the Clopri security scanner.
 
 ## Steps
