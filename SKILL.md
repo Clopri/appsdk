@@ -1,6 +1,6 @@
 ---
 name: clopri-app-builder
-description: Build, edit, and validate single-file applications for the Clopri ecosystem using Clopri App SDK v3.9.0. Use when the user asks to create a Clopri app, extension, module, plugin, report, POS tool, or dashboard, or mentions clopri.json, Executor::doit, clopriRequest, clopriStorage, or Clopri database tables.
+description: Build, edit, and validate single-file applications for the Clopri (clopri.com) ecosystem using Clopri App SDK v3.9.0. Use when the user asks to create a Clopri app, extension, module, plugin, report, POS tool, or dashboard, or mentions clopri.json, Executor::doit, clopriRequest, clopriStorage, or Clopri database tables.
 ---
 # Clopri App Builder
 
